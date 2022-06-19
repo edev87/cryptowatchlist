@@ -4,6 +4,31 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+#### `npm install`
+#### `npm i axios`
+#### `npm i react-icons`
+#### `npm i react-sparklines`
+#### `npm install -D tailwindcss`
+#### `npx tailwindcss init`
+#### `npm i firebase`
+
+#### Copy and paste `"./src/**/*.{html,js}"` into the content array inside of tailwind.config.js
+```js
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+```
+#### Copy and paste inside of index.css
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 In the project directory, you can run:
 
 ### `npm start`
